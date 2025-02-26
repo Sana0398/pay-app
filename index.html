@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay App</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+ .outfit-font {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+    
+    
+    
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="outfit-font bg-[#1E1E1E] ">
+    <section class="upper-section mx-auto max-w-md min-h-screen bg-[#F4F5F7]  ">
+        <nav class="relative flex justify-center items-center pt-52 flex-col ">
+        <img src="./assets/bg.png" alt="">
+        <img class="-mt-64" src="./assets/Group.png" alt="">
+        </nav>
+        
+        <div class="hero bg-base-200 ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <form class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-medium text-[#080808] text-base">Mobile Number</span>
+                    </label>
+                    <input id="number" type="text" placeholder="Enter Your Number" class="input input-bordered rounded-3xl bg-[#F4F5F7] font-light border-none" required />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-medium text-[#080808] text-base">Password</span>
+                    </label>
+                    <input id="password" type="password" placeholder="Enter 4 Digits Pin" class="input input-bordered rounded-3xl bg-[#F4F5F7] font-light border-none" required />
+                   
+                  </div>
+                  <div class="form-control mt-6">
+                    <button id="login" class="btn bg-[#0874F2] text-white rounded-3xl text-xl font-semibold ">Login</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script src="./scripts/main.js"></script>
+    <script src="./utilities/utilities.js"></script>
+</body>
+</html>
